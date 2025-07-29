@@ -517,7 +517,7 @@ qiskit_circuits = [convert_to_qiskit_circuit(c['circuit_instructions'])
                    for c in circuits]
 ```
 
-## 📚 Further Reading
+##  Further Reading
 
 - [OpenFermion Documentation](https://quantumai.google/openfermion)
 - [Quantum Chemistry Algorithms](https://arxiv.org/abs/1812.09976)
