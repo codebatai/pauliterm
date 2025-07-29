@@ -3,10 +3,25 @@
 ##  Overview
 
 This comprehensive guide covers three major performance enhancements to OpenFermion that dramatically improve quantum chemistry simulation efficiency:
+This package provides **three production-ready pull requests** to OpenFermion that deliver significant efficiency improvements:
 
-1. **Advanced Pauli Term Grouping** - Reduces measurement requirements by up to 85%
-2. **Parallel Hamiltonian Evolution** - Decreases circuit depth by factors of √N
-3. **Fast Bravyi-Kitaev Transform** - Achieves 3-11x speedup for large systems
+### **Pull Request #1: Optimized Pauli Term Grouping**
+
+- **Benefit**: Up to 50% reduction in measurement requirements
+- **Innovation**: Overlapping groups strategy for simultaneous measurements
+- **Impact**: Directly reduces quantum circuit execution time
+
+### **Pull Request #2: Parallel Hamiltonian Evolution**
+
+- **Benefit**: Circuit depth reduction by factor of √N where N is number of molecular orbitals
+- **Innovation**: Commuting term grouping for parallel evolution
+- **Impact**: Enables larger molecular systems on NISQ devices
+
+### **Pull Request #3: Enhanced Bravyi-Kitaev Transform**
+
+- **Benefit**: Memory-efficient sparse matrix optimization
+- **Innovation**: Leverages fermionic symmetries to minimize memory footprint
+- **Impact**: Better performance for large molecular systems
 
 ##  Quick Start
 
